@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+	border:0;
+	font-family: 'PT Sans', sans-serif;
+}
+
+/*HEADER*/
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height:100px;
+	background: rgba(0, 0, 0, 0.7);
+	
+
+}
+
+.header_inner{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	font-size: 18px;
+}
+
+.element_nav{
+	display: flex;
+	justify-content: space-between;
+	width:40%;
+	align-items: center;
+	
+	margin-right: 60px;
+}
+
+
+
+.link{
+	text-decoration: none;
+	color:white;
+transition: .2s;
+}
+.link:hover{
+	color:#B9B8B8;
+}
+
+
+
+/*MAIN*/
+.main{
+	background-image:url(img/krater_voronka_karer_143686_1920x1200.jpg);
+	height: 100vh;
+
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	
+
+	min-height: calc(100vh - 80px);
+
+}
+.img{
+	margin-left: 30px;
+}
+
+.main_item{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width:100%;
+
+}
+
+.category_item:hover{
+	  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.header_inner_elements:hover{
+	  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.main_item_container{
+	display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: column;
+font-size: 47px;
+	color: white;
+	
+	margin-top: 17vh;
+	letter-spacing: 5px;
+}
+
+.main_item_text{
+margin-top: 40px;
+
+
+}
+
+
+.category{
+
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top:70vh;
+	position: absolute;
+	width: 100%;
+
+}
+
+.category_item{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(0, 0, 0, 0.5);
+	width: 250px;
+	height:56px;
+	color: white;
+}
+
+.category_item_icon{
+	margin-top: 3px;
+}
+
+
+
+.category_item_text{
+	margin-right: 10px;
+}
+
+
+
+/*FOOTER*/
+
+.footer{
+	width: 100%
+	
+}
+
+.footer_box{
+	background-color:black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+
+.footer_box_prava{
+	color: #5E6E66;
+	margin-left:30px;
+}
+
+
+.footer_box_link{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width:25%;
+	margin-right:30px;
+
+}
+
+.link_footer{
+	text-decoration: none;
+	color: #5E6E66;
+transition: .2s;
+}
+.link_footer:hover{
+	color:#B9B8B8;
+}
